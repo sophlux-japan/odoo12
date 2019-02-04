@@ -42,7 +42,7 @@ RUN set -x; \
         && rm -rf /var/lib/apt/lists/* odoo.deb
 
 # Copy entrypoint script and Odoo configuration file
-RUN pip3 install num2words xlwt
+RUN pip3 install num2words xlwt cryptography wechatpy
 COPY ./config/entrypoint.sh /
 COPY ./config/odoo.conf /etc/odoo/
 RUN chown odoo /etc/odoo/odoo.conf

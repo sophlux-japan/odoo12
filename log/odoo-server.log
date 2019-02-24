@@ -1,2 +1,0 @@
-2019-02-23 23:56:59,996 1 INFO test werkzeug: 172.20.0.5 - - [23/Feb/2019 23:56:59] "POST /longpolling/poll HTTP/1.0" 200 - 9 0.006 50.024
-2019-02-23 23:57:00,023 1 DEBUG test odoo.modules.registry: Multiprocess signaling check: [Registry - 13 -> 13] [Cache - 36 -> 36] 
